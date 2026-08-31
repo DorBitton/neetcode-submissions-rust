@@ -6,12 +6,12 @@ impl Solution {
         let mut seen = HashSet::new();
 
         for num in nums {
-            if !seen.insert(num) {
+            if !seen.insert(num) { // O(n) = O(1)
                 return true;
             }
         }
         return false;
 
-        // O(n) = O(1)
+        // O(n) = O(n)
     }
 }
