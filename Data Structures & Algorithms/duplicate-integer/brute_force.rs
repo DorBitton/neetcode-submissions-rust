@@ -11,3 +11,5 @@ impl Solution {
         return false;
     }
 }
+
+// O(n) = O(n^n)
